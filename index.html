@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Violencia y Robos GDL</title>
+	 <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	 <script src="jquery-3.3.1.js" type="text/javascript"></script>
+	 <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129673655-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129673655-1');
+</script>
+
+      <link rel="stylesheet" type="text/css" href="Estilos.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+	<body background="background.jpg">
+		<div id="main" class="row">
+		<div id="menu" class= "col s3">
+			<div id="VEG" class="menuTitle" class="row">Violence in Guadalajara</div>
+			<div id="Intro" class="menusub" class="row">Introduction</div>
+			<div id="AR" class="menusub" class="row">Academic Research</div>
+			<div id="SI" class="menusub" class="row">Social Impact</div>
+			<div id="PR" class="menusub" class="row">Proposal</div>
+			<div id="PE" class="menusub" class="row">Persona</div>
+			<div id="SOL" class="menusub" class="row">Solution</div>
+			<div id="REP" class="menusub" class="row">Reports</div>
+		</div>
+		<div id="info" class= "col s9" >
+			<div id="intro"></div>
+		</div>
+		</div>
+
+		<script>
+		document.getElementById("Intro").addEventListener("click",dissappear);
+		function dissappear(){
+			document.getElementById("intro").innerHTML = "Introduction <br /><br /> The problem we decided to investigate is violence, unfortunately in our country this is a situation that we live in our daily life. All kinds of violence constantly happen in the streets of Mexico, people often live without the confidence to go out and not  worry about being attacked or robbed. Even though all the effort that has been made from the government to stop this situation it keeps getting worse. We are still very far away from being a first world country without violence.<br /><br />Nobody is safe from violence in Mexico, all kind of violent acts like kidnappings, robberies, homicide and sexual assaults are committed against all kinds of people. So, every citizen is affected by this problem that keeps increasing day to day.<br /><br />Due to the lack of job and the low minimum wage we have in Mexico some people often commit crimes to get money and those acts lead to violence. Also, the lack of education is a reason for violence, people with no education are more unconscious about the consequences of this problem. Because of this, people with no education can't find a job and without an income they commit crimes.<br /><br />";
+			document.getElementById("intro").innerHTML += "<img src=\"cjng.jpg\"width=\"700px\" height=\"400px\">";
+			document.getElementById("intro").innerHTML += "<br />Violence is affecting us in many ways, in terms of insecurity, it is so recurrent that we are always having to think of the probability of a crime every time we go out. We are so constantly living with violence that is starting to become normal to see homicides, kidnappings and all that stuff that surrounds use in our daily life. The development of the country is also affected by this problem, new businesses cant be developed in certain zones because of the fear to violence. Violence leads to insecurity, and insecurity fends off potential investors and it makes it a more hostile environment for people that come from other places to study or work.<br /><br />Benchmark solutions:<br />To this day most solutions to violence are government iniciatives, but there are also some civilian groups of people such as: Vecinos Vigilantes, who work locally to prevent/decrease violence in their surroundings, and private security companies that work for specific groups of people, while this solution is used for businesses or residential developments, areas close to places being guarded by private security companies are less likely to be attacked by crime.<br />Page made by:<br /><br />Andre Calderon Barbeito A01401035<br />		Juan Jose Cazarez Gastelum A00570574 ";
+			document.getElementById("intro").style.backgroundColor = "Cornsilk";
+			document.getElementById("intro").style.opacity = "100";
+		}
+		document.getElementById("AR").addEventListener("click",dissapear);
+		function dissapear(){
+		document.getElementById("intro").innerHTML = "Academic research<br /><br />We have found that violence is increasing in Mexico, everyday an incredible number of crimes are committed in all the country.  Since we live in Guadalajara, which is a big city, we decided to take a closer look to all the violent situations that happen here as a reference for the country.  So, we have some violent crimes that happened in Guadalajara recently:<br /><br />";
+		document.getElementById("intro").innerHTML += "<br />In the whole 2017:<br /><br />Homicides: 1369<br />Personal Robberies: 2969<br />Vehicle Robberies: 4080<br />House Robberies: 3506<br /><br />";
+		document.getElementById("intro").innerHTML += "<img src=\"feminicidio.jpg\"width=\"80%\">";
+		document.getElementById("intro").innerHTML += "<br /><br />June 2018:<br /><br />Homicides: 42<br />Personal Robberies: 383<br />Vehicle Robberies: 490<br />House Robberies: 101<br /><br />";
+		document.getElementById("intro").innerHTML += "July 2018:<br /><br />Homicides:  37<br />Personal Robberies: 437<br />Vehicle Robberies: 457<br />House Robberies: 104<br /><br />";
+		document.getElementById("intro").innerHTML += "<img src=\"asaltos.jpg\"width=\"80%\">";
+		document.getElementById("intro").innerHTML += "<br /><br />Reference: <br /><br />http://infopublicafge.jalisco.gob.mx/Transparencia_PGJEJ/Estadisticas_PGJEJ/estadisticas_pgjej.htm";
+		document.getElementById("intro").style.backgroundColor = "Cornsilk";
+		document.getElementById("intro").style.opacity = "100";
+		}
+		document.getElementById("SI").addEventListener("click",appear);
+		function appear(){
+		document.getElementById("intro").innerHTML = "Social Impact<br /><br />The world is also being affected by violence, in some places like middle east countries this problem is even worse than our country. Wars are still a reality in our world, those are the greater example of violence and they keep happening in other countries. The principal problems that violence generates around the world are insecurity, economic loses and the most important: physical and emotional damages in the victims. A lot of people have tried to eradicate violence from the root, but even though all the effort this is still a problem that keeps affecting the whole world.<br /><br />";
+		document.getElementById("intro").innerHTML += "<img src=\"war.jpg\"width=\"80%\">";
+		document.getElementById("intro").style.backgroundColor = "Cornsilk";
+		document.getElementById("intro").style.opacity = "100";
+		}
+		document.getElementById("PR").addEventListener("click",disappear);
+		function disappear(){
+		document.getElementById("intro").innerHTML = "Introduction:<br />";
+		document.getElementById("intro").innerHTML += "We are a team of web developers directed by two of the best programmers from the Tec de Monterrey. We offer you quality and efficiency to your desired web projects, also we have the patience to achieve exactly what you are looking for. If you’ve got an idea don’t doubt it and let us do what we do best, offer an excellent service.<br /><br />";
+		document.getElementById("intro").innerHTML += "Team:<br />";
+		document.getElementById("intro").innerHTML += "The team is directed by Juan José Cazarez and André Calderon, two young programmers full of talent and experience. We are students from the best university in Mexico, which also has recognition worldwide, Tec de Monterrey. We are always looking forward to accomplishing your goals and we want to be a part of them.<br /><br />";
+		document.getElementById("intro").innerHTML += "Problem:<br />";
+		document.getElementById("intro").innerHTML += "The problem we are trying to solve is violence in Mexico, we decided to make our webpage about that because is one of the biggest problems that happen everyday in all the country. <br /><br />";
+		document.getElementById("intro").innerHTML += "Strategic Goal:<br />";
+		document.getElementById("intro").innerHTML += "Our goal is to prevent people about the violent crimes that keep happening on the streets, eliminating violence with a webpage is almost impossible so our principal mission is only giving information about these situations and where does they happen.<br /><br />";
+		document.getElementById("intro").innerHTML += "Methodology:<br />";
+		document.getElementById("intro").innerHTML += "As a reference for the country we investigated the city of Guadalajara, because it is a big city and has all kinds of social statuses. We looked for all the crimes that were committed and where they happened. For now, we are making a Persona, which will give us the information we need to let you know how violence is affecting a regular citizen of Mexico.<br /><br />";
+		document.getElementById("intro").innerHTML += "Implementation plan:<br />";
+		document.getElementById("intro").innerHTML += "Talking about our services as web developers, this is the way we interact with the client for the making of a project. First, we need to make a meeting to get to know all the requirements, it can be physical (includes transportation cost) or online. After that we make a detailed list of costs and a pair of plans depending on your budget. Then we put our hands to work. You as a client will be able to watch and follow all the progress and make a correction whenever you want.<br /><br />";
+		document.getElementById("intro").innerHTML += "Costs and considerations:<br />";
+		document.getElementById("intro").innerHTML += "The cost for our work is depending on the time we take during the make of your project, we estimate a total depending on the characteristics of the web page you have in mind and the amount of people required to accelerate the process. <br /><br />";
+		document.getElementById("intro").innerHTML += "     The plans are:<br /><br />          Express- 900 MXN per hour. (50% faster than normal)<br />          Normal- 450 MXN per hour.<br /><br />";
+		document.getElementById("intro").innerHTML += "Extras: Domain (500-700 MXN), licenses and servers if required (500-3,000 MXN approximately) and additional costs (transportation, hotel, travel expenses).<br />";
+		document.getElementById("intro").style.backgroundColor = "Cornsilk";
+		document.getElementById("intro").style.opacity = "100";
+		}
+		document.getElementById("PE").addEventListener("click",persona);
+		function persona(){
+		document.getElementById("intro").innerHTML = "Persona:<br /><br />Perfil: Joven de 20-26 años, estudiante/trabajador. Vive en Guadalajara<br />Personalidad: Le gusta salir, toma, desconfía de la autoridad.<br /><br />Referentes e Influencias: <br />Referentes: Acuden al internet para sus conocimientos u opiniones.<br />Influencias: Conocidos o personas que admiran.<br /><br />";
+		document.getElementById("intro").innerHTML += "<br />Experiencia tecnológica:<br /> Usa mucho el celular y la computadora.<br /><br />Metas de la experiencia: <br />-	Facilidad<br />-	Practicidad<br />-	Seguridad<br />";
+		document.getElementById("intro").innerHTML += "<br />Dispositivos y Plataformas:<br />Celular Móvil<br /><br />Must do:<br />Mostrar las zonas de una manera fácil y entendible<br /> <br />Must never:<br />Confundir al usuario<br />No mostrar demasiada información al usuario<br />Normalizar violencia<br />";
+		document.getElementById("intro").innerHTML += "<br />Relación con la marca y el producto:<br />El hecho de que se puede ver de una manera grafica las zonas peligrosas o de riesgo en la ciudad hace que la violencia se ataque desde un punto de vista más pasivo, es decir, evitando ponerte en situaciones de riesgo. El cliente toma valor en prevenir y planear.<br /><br />";
+		document.getElementById("intro").innerHTML += "Entrevista con la señora Sarah, ciudadana de Zapopan: <br />";
+		document.getElementById("intro").innerHTML += "<audio src=\"entrevista.mp4\" controls=\"controls\" type=\"audio/mpeg\" preload=\"preload\">";
+		document.getElementById("intro").innerHTML += "<br /><br />Entrevista a policía municipal de Zapopan Ricardo Vázquez:<br /><br />";
+		document.getElementById("intro").innerHTML += "<i>- Buenas tardes, nos encontramos aquí con el señor Ricardo Vázquez, policía de la ciudad de Zapopan, por motivos personales no revelaremos la apariencia física del señor Ricardo.<br /><br />Bueno, comencemos…<br />¿Usted es originario de Guadalajara?<br />- Así es, toda mi vida he vivido aquí.<br /><br />- ¿Desde hace cuanto tiempo se dedica al servicio de seguridad pública?<br />- Tengo 8 años, ya casi 9.</i><br />";
+		document.getElementById("intro").innerHTML += "<i><br />- ¿Considera que la seguridad en Zapopan es buena?<br />- Nosotros hacemos lo que podemos, pero pienso que hay zonas muy inseguras todavía. Tristemente hay personas que ya no confían en nosotros, aunque si se ha reducido la inseguridad de acuerdo con lo que yo vivo a diario.<br /></i>";
+		document.getElementById("intro").innerHTML += "<i><br />- ¿Qué recomendaciones les daría a las personas al salir de noche de sus hogares?<br />- Que se anden con cuidado porque en la noche hay mucho maleante que solo anda buscando a quien perjudicar, y que sean precavidos con sus acciones para no llamar mucho la atención. También si son victimas de un asalto o de algún crimen que no duden en llamarnos.<br /></i>";
+		document.getElementById("intro").innerHTML += "<i><br />- ¿Al día de cuantos crímenes le reportan aproximadamente?<br />- Yo creo que unos 20 al día y los fines un poquito más ya que la gente se enfiesta y ahí es cuando normalmente se aprovechan de ella.<br /></i>";
+		document.getElementById("intro").innerHTML += "<i><br />- Por último, ¿Qué se necesita para mejorar la seguridad en el país?<br />- Ahora sí que es cuestión de aumentar el presupuesto en la seguridad y castigar a los policías corruptos, también es necesario eliminar la venta de droga ya que de ahí se derivan muchos de los problemas del país.<br /><br />- Bueno eso es todo de nuestra parte señor Ricardo, muchas gracias por su tiempo.<br />- Aquí estamos para servirle, joven. Échenle ganas a la escuela.<br /><br /></i>";
+		document.getElementById("intro").innerHTML += "<img src=\"policia.jpg\"width=\"30%\" class= \"fotos\">";
+		document.getElementById("intro").style.backgroundColor = "Cornsilk";
+		document.getElementById("intro").style.opacity = "100";
+		}
+		document.getElementById("SOL").addEventListener("click",solucion);
+		function solucion(){
+			document.getElementById("intro").innerHTML = "Explicación de la Solución:<br />";
+			document.getElementById("intro").innerHTML += "La solución que propusimos es una pequeña aplicación que muestre gráficamente las zonas más peligrosas y las más seguras de la ciudad por medio de un mapa que tenga colores representando diferentes niveles de inseguridad. También se incluirá una sección de noticias, en la que cada quien pueda publicar cosas que les han sucedido, una sección de recomendaciones, por ejemplo, evitar ciertas zonas a ciertas horas, y por último una sección de preguntas, por ejemplo, si alguien está visitando a la ciudad, podría preguntar a la comunidad cosas específicas sobre lugares o calles.<br /><br />";
+			document.getElementById("intro").innerHTML += "Impacto: <br />";
+			document.getElementById("intro").innerHTML += "Nosotros creemos que nuestra solución impactará a la sociedad, haciendo que las personas tengan la opción de informarse fácil y rápidamente antes de salir, esperando que tomen conciencia  Cabe recalcar que en ningún momento esperamos normalizar la violencia, ya que esto es algo inaceptable en cualquier nivel. <br /><br />";
+			document.getElementById("intro").innerHTML += "Segunda entrevista con el experto: <br />";
+			document.getElementById("intro").innerHTML += "Platicamos de nuevo con el policía, y le explicamos acerca de nuestra propuesta para solucionar/evitar el problema de la violencia. Nos comentó que se le hace una buena medida de seguridad para evitar ponerse en situaciones peligrosas, pero que no considera que sea una solución directa al problema. Le gustó la idea de tener un foro donde se puedan compartir experiencias en distintos lugares para que la gente esté más atenta a ese tipo de cosas específicamente y así evitar ser victimas del crimen.<br /><br />";
+			document.getElementById("intro").innerHTML += "User feedback <br /><br />";
+			document.getElementById("intro").innerHTML += "Hablamos con la misma vecina sobre nuestra solución, nos comentó que viviendo ella aquí, ya no le es necesario tener una aplicación así, pero que sería muy buena para personas que acaban de mudarse aquí o para estudiantes que se hayan mudado aquí. Nos comentó que ella siempre procura estar en contacto con varios grupos de whatsapp para informarse sobre cosas que estén pasando en la ciudad, entonces le gustó que tuviera una sección de noticias donde cada quien pueda publicar experiencias propias. <br /><br />";
+			document.getElementById("intro").innerHTML += "Prototype: <br /><br />";
+			document.getElementById("intro").innerHTML += "<img src=\"proto1.jpeg\"width=\"50%\"><br />";
+			document.getElementById("intro").innerHTML += "<img src=\"proto2.jpeg\"width=\"50%\"><br /><br />";
+		}
+		document.getElementById("REP").addEventListener("click",reports);
+		function reports(){
+		document.getElementById("intro").innerHTML = "Social Media: <br /><br />";
+		document.getElementById("intro").innerHTML += "<img src=\"prueba1.jpeg\"width=\"50%\"><br />";
+		document.getElementById("intro").innerHTML += "<img src=\"prueba3.jpeg\"width=\"50%\"><br />";
+		document.getElementById("intro").innerHTML += "<img src=\"prueba2.jpeg\"width=\"50%\"><br /><br />";
+		document.getElementById("intro").innerHTML += "Usability Hub: <br /><br />";
+		document.getElementById("intro").innerHTML += "<img src=\"usabilityhub.png\"width=\"70%\"><br /><br />";
+		}
+
+		document.getElementById("VEG").addEventListener("click",clear);
+		function clear(){
+		document.getElementById("intro").innerHTML = "";
+		document.getElementById("intro").style.backgroundColor = "Cornsilk";
+		document.getElementById("intro").style.opacity = "0";
+		}
+
+		var screenw = window.innerWidth;
+		if (screenw < 800){
+			document.getElementById("info").classList.remove("col s9");
+			document.getElementById("info").classList.add("col s12");
+		}
+
+		</script>
+	</body>
+
+</html>

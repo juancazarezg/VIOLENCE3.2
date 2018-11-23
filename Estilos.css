@@ -1,0 +1,71 @@
+body{
+	z-index: 0;
+	background-size: cover;
+}
+
+#main{
+	z-index: 5;
+	height: 100vh;
+	width: 100%;
+}
+#menu{
+	float: left;
+	display: block;
+	height: auto;
+
+	background-color: red;
+	clip-path: polygon(0 0, 100% 0, 100% 100%,0 100%);
+}
+.menuTitle{
+	display: block;
+	text-align: center;
+	margin-bottom: 10%;
+	margin-top: 10%;
+	padding: 10px;
+	color: white;
+	font-size: 45px;
+	font-weight: bold;
+}
+.menusub{
+	float: top;
+	display: block;
+	margin: auto;
+	height: 15%;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+.menusub:hover{
+	color: lightgrey;
+	font-size: 30px;
+	font-weight: bolder;
+}
+#info{
+	margin-top: 5%;
+	height: 100%;
+}
+.chiquito{
+
+}
+#intro{
+	overflow-y: scroll;
+
+	height: 80%;
+	width: 95%;
+	padding-right: 20px;
+	padding-left: 5%;
+	background-color: transparent;
+	color: black;
+	font-size: 25px;
+	overflow-x: hidden;
+	clip-path: polygon(0% 0, 100% 0, 100% 100%,0 100%);
+	opacity: 0;
+		box-sizing: content-box;
+	text-align: justify;s
+}
+
+@media screen and (max-width: 800px){
+
+}
